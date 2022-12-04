@@ -19,17 +19,52 @@ const HomeCover = () => {
       >
         <SwiperSlide>
           <div className="relative">
-            <img className="w-full h-full" src={CoverOne} alt="sliderImage" />
-            {/* <button className="absolute top-0 text-2xl text-black">
-              Shop Now
-            </button> */}
+            <img className="" src={CoverOne} alt="sliderImage" />
+
+            <div className="absolute top-60 left-40">
+              <h1 className=" tracking-widest text-5xl uppercase text-white font-Poppins font-bold">
+                Luxury Watches
+              </h1>
+              <h1 className="text-xl mt-5 font-light font-Ubuntu">
+                Save on authentic swiss watches!
+              </h1>
+              <button className="mt-6 bg-green-400 text-white px-6 py-2 rounded-sm">
+                Shop Now
+              </button>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={CoverTwo} alt="sliderImage" />
+          <div className="relative">
+            <img src={CoverTwo} alt="sliderImage" />
+            <div className="absolute top-60 left-40">
+              <h1 className=" tracking-widest text-5xl uppercase text-white font-Poppins font-bold">
+                Luxury Watches
+              </h1>
+              <h1 className="text-xl mt-5 font-light font-Ubuntu">
+                Save on authentic swiss watches!
+              </h1>
+              <button className="mt-6 bg-green-400 text-white px-6 py-2 rounded-sm">
+                Shop Now
+              </button>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={CoverThree} alt="sliderImage" />
+          <div className="relative">
+            <img src={CoverThree} alt="sliderImage" />
+            <div className="absolute top-60 left-40">
+              <h1 className=" tracking-widest text-5xl uppercase text-white font-Poppins font-bold">
+                Branded T-Shirt
+              </h1>
+              <h1 className="text-xl mt-5 font-light font-Ubuntu">
+                Save on authentic swiss watches!
+              </h1>
+              <button className="mt-6 bg-green-400 text-white px-6 py-2 rounded-sm">
+                Shop Now
+              </button>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaOpencart } from "react-icons/fa";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { IconContext } from "react-icons";
+import Logo from "../Pages/images/Untitled-1.png";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center bg-white shadow-lg h-24 px-4 lg:px-16 text-black">
         <aside>
           <Link className="lg:text-3xl text-2xl  uppercase" to="/">
-            Shop-x
+            {/* Shop-x */}
+            <img className="lg:w-2/5 w-3/5" src={Logo} alt="" />
           </Link>
         </aside>
         <aside className="flex gap-10 items-center -space-x-4">

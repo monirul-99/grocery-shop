@@ -13,16 +13,13 @@ const ThreeCard = () => {
   }, []);
   return (
     <div className="container mx-auto text-black bg-[#f2f2f2] py-20">
-      <div className="w-4/5 mx-auto px-10 flex flex-col justify-center">
+      <div className="lg:w-4/5  mx-auto px-10 flex flex-col justify-center">
         <h1>Discover</h1>
         <h1 className="text-3xl pb-8 uppercase font-Ubuntu">
-          Topper{" "}
-          <span className="border-b-2 inline-block mt-2 border-cyan-400">
-            Categories
-          </span>
+          Topper <span className="">Categories</span>
         </h1>
       </div>
-      <div className="grid lg:grid-cols-3 gap-12 w-4/5 mx-auto">
+      <div className="grid lg:grid-cols-3 gap-12 lg:w-4/5 mx-auto">
         {categories?.map((category, inx) => (
           <CategoryCard key={inx} category={category}></CategoryCard>
         ))}

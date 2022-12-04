@@ -1,10 +1,7 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-// import required modules
 import { Pagination } from "swiper";
 
 import CoverOne from "../images/Cover.jpg";
@@ -12,7 +9,7 @@ import CoverTwo from "../images/CoverTwo.jpg";
 import CoverThree from "../images/CoverThree.jpg";
 const HomeCover = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto bg-[#9CA3AF]">
       <Swiper
         pagination={{
           dynamicBullets: true,

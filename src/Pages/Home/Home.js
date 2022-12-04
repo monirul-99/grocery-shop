@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.css";
 import HomeCover from "./HomeCover";
+import ThreeCard from "./ThreeCard";
 
 const Home = () => {
   return (
-    <div className="bg-slate-800">
+    <div className="">
       <HomeCover />
+      <ThreeCard />
     </div>
   );
 };
